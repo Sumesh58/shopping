@@ -1,0 +1,43 @@
+.Registerpage{
+
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(rgba(225, 225, 255, 0.5),rgba(255,255,255,0.5) ),url('https://images.unsplash.com/photo-1514932932932-1c7500bf245d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+   .Registerpage .wrapper{
+        border-radius: 7px;
+        width: 40%;
+        padding: 20px;
+        background-color: rgb(193, 178, 178);
+   }
+
+   .Registerpage .wrapper    h1{
+  font-size: 24px;
+  font-weight: 500;
+border-bottom: 1px solid black;
+width: 16rem;
+  
+        }
+        .Registerpage .wrapper     form{
+display: flex;
+flex-wrap: wrap;}
+
+.Registerpage .wrapper   form   input{
+       flex: 1;
+       min-width: 40%;
+
+   outline: none;
+ 
+   
+       margin: 20px 10px 0px 0px;
+       padding: 10px;
+            }
+    
+
+            
